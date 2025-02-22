@@ -1,7 +1,7 @@
 <div align="center">
 <img alt="logo" height="120" src="./public/favicon.png" width="120"/>
 <h2>今日热榜</h2>
-<p>一个聚合热门数据的 API 接口</p>
+<p>一个聚合热门数据的 API 接口（Fork 自 imsyy 的项目）</p>
 <br />
 <img src="https://img.shields.io/github/last-commit/imsyy/DailyHotApi" alt="last commit"/>
  <img src="https://img.shields.io/github/languages/code-size/imsyy/DailyHotApi" alt="code size"/>
@@ -21,9 +21,10 @@
 
 > 这里是使用该 API 的示例站点  
 > 示例站点可能由于访问量或者长久未维护而访问异常  
-> 若您也使用了本 API 搭建了网站，欢迎提交您的站点链接
+> 若您也使用了本 API 搭建了网站，欢迎提交您的站点链接到 imsyy 的Github仓库中。
 
-- [今日热榜 - https://hot.imsyy.top/](https://hot.imsyy.top/)
+
+- [今日热榜 - https://hothub.vercel.app/](https://hothub.vercel.app/)
 
 ## 📊 接口总览
 
@@ -105,7 +106,7 @@ serveHotApi(3000);
 
 ## ⚙️ 部署
 
-具体使用说明可参考 [我的博客](https://blog.imsyy.top/posts/2024/0408)，下方仅讲解基础操作：
+具体使用说明可参考 [imsyy的博客](https://blog.imsyy.top/posts/2024/0408)，下方仅讲解基础操作：
 
 ### Docker 部署
 
@@ -193,7 +194,7 @@ sh ./deploy.sh
 ## ⚠️ 须知
 
 - 本项目为了避免频繁请求官方数据，默认对数据做了缓存处理，默认为 `60` 分钟，如需更改，请自行修改配置
-- 本项目部分接口使用了 **页面爬虫**，若违反对应页面的相关规则，请 **及时通知我去除该接口**
+- 本项目部分接口使用了 **页面爬虫**，若违反对应页面的相关规则，请 **及时通知imsyy去除该接口**
 
 ## 📢 免责声明
 
@@ -203,6 +204,8 @@ sh ./deploy.sh
 - 本项目保留对 `API` 的随时更改、停用、限制使用等措施的权利。任何因使用本 `API` 产生的损失，本项目不负担任何赔偿和责任
 
 ## 😘 鸣谢
+
+首先感谢 imsyy 。
 
 特此感谢为本项目提供支持与灵感的项目
 
